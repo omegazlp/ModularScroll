@@ -1,0 +1,24 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .full-screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 2em;
+  }
+  #div1 { background-color: lightblue; z-index: 4; }
+  #div2 { background-color: lightgreen; z-index: 3; opacity: 0; }
+  #div3 { background-color: lightcoral; z-index: 2; opacity: 0; }
+  #div4 { background-color: lightyellow; z-index: 1; opacity: 0; }
